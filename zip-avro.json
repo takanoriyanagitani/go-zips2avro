@@ -1,0 +1,39 @@
+{
+  "fields": [
+    {
+      "logicalType": "timestamp-micros",
+      "name": "modified_unixtime_us",
+      "type": "long"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "comment",
+      "type": "string"
+    },
+    {
+      "name": "raw_bytes",
+      "type": "bytes"
+    },
+    {
+      "name": "compressed_size_64",
+      "type": "long"
+    },
+    {
+      "name": "uncompressed_size_64",
+      "type": "long"
+    },
+    {
+      "name": "crc_32",
+      "type": "long"
+    },
+    {
+      "name": "method",
+      "type": "int"
+    }
+  ],
+  "name": "zip_basic_item",
+  "type": "record"
+}

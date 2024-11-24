@@ -1,0 +1,35 @@
+name = 'zip_basic_item'
+type = 'record'
+
+[[fields]]
+name = 'modified_unixtime_us'
+type = 'long'
+logicalType = "timestamp-micros"
+
+[[fields]]
+name = 'name'
+type = 'string'
+
+[[fields]]
+name = 'comment'
+type = 'string'
+
+[[fields]]
+name = 'raw_bytes'
+type = 'bytes'
+
+[[fields]]
+name = 'compressed_size_64'
+type = 'long'
+
+[[fields]]
+name = 'uncompressed_size_64'
+type = 'long'
+
+[[fields]]
+name = 'crc_32'
+type = 'long'
+
+[[fields]]
+name = 'method'
+type = 'int'
