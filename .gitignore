@@ -23,3 +23,5 @@ go.work.sum
 
 # env file
 .env
+*.swp
+cmd/names2zips2items2out/names2zips2items2out
