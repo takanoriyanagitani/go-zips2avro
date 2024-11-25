@@ -25,3 +25,4 @@ go.work.sum
 .env
 *.swp
 cmd/names2zips2items2out/names2zips2items2out
+cmd/names2zips2genitems2out/names2zips2genitems2out
