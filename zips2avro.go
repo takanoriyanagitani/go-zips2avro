@@ -24,3 +24,8 @@ type ZipFileItemBasic struct {
 	CRC32              uint32 `avro:"crc_32"`
 	Method             Method `avro:"method"`
 }
+
+//go:embed generic-zip.avsc
+var ZipFileItemGenericAvroSchema string
+
+type ZipFileItemGeneric map[string]any

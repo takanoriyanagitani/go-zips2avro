@@ -6,3 +6,5 @@ import (
 )
 
 type Output func(za.ZipFileItemBasic) util.Io[util.Void]
+
+type OutputGeneric func(za.ZipFileItemGeneric) util.Io[util.Void]
